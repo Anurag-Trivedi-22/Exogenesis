@@ -1,23 +1,22 @@
 # 🤖 Exogenesis
-A Biometric-Driven Teleoperation System for Enhanced Safety in Hazardous Environments
 
-Exogenesis is a collaborative robotics project focused on developing a wearable biometric teleoperation system capable of replicating human hand movements on a robotic hand in real time.
+> **A Biometric-Driven Teleoperation System for Enhanced Safety in Hazardous Environments**
 
-The system captures finger movements using flex sensors, processes them through ESP32 microcontrollers, and wirelessly transmits the data using the ESP-NOW protocol to control a tendon-driven robotic hand.
+Exogenesis is a collaborative robotics project that enables intuitive, real-time teleoperation of a robotic hand using natural human hand movements. The system captures finger gestures through a wearable glove equipped with flex sensors, processes the sensor data using ESP32-S3 microcontrollers, and wirelessly transmits the commands via the ESP-NOW protocol to control a tendon-driven robotic hand.
 
-The primary objective of this project is to improve operator safety in hazardous environments by enabling intuitive remote robotic manipulation while maintaining low communication latency and reliable motion replication.
+The project is designed to enhance operator safety by enabling remote manipulation in hazardous environments such as bomb disposal, disaster response, hazardous material handling, and industrial automation.
 
 ---
 
-# 📌 Project Highlights
+# 📌 Key Features
 
-- 🖐️ Real-time hand motion replication
-- 📡 ESP-NOW wireless communication
+- 🖐️ Real-time hand gesture replication
+- 📡 Low-latency wireless communication using ESP-NOW
 - 🤖 Flex sensor-based gesture recognition
-- ⚡ Low-latency teleoperation
-- 🔧 ESP32-S3 embedded system
-- 🎯 Servo motor driven robotic hand
+- 🔧 ESP32-S3 embedded control system
+- ⚙️ Servo motor driven robotic hand
 - 🏗️ Modular hardware architecture
+- 💡 Cost-effective teleoperation solution
 
 ---
 
@@ -30,6 +29,7 @@ The primary objective of this project is to improve operator safety in hazardous
 - Servo Motors
 - 3D Printed Robotic Hand
 - Tendon Drive Mechanism
+- Power Supply
 
 ## Software
 
@@ -45,19 +45,20 @@ The primary objective of this project is to improve operator safety in hazardous
 Human Hand
       │
       ▼
-Flex Sensors
+ Wearable Glove
+(Flex Sensors)
       │
       ▼
-ESP32 (Transmitter)
+ESP32-S3 (Transmitter)
       │
       ▼
-ESP-NOW
+ESP-NOW Communication
       │
       ▼
-ESP32 (Receiver)
+ESP32-S3 (Receiver)
       │
       ▼
-Servo Motors
+Servo Motor Control
       │
       ▼
 Robotic Hand
@@ -65,36 +66,99 @@ Robotic Hand
 
 ---
 
-# 🎯 Applications
+# 🎯 Objectives
 
-- Hazardous Environment Operations
+- Develop an intuitive wearable teleoperation system.
+- Replicate human hand movements with high accuracy.
+- Improve operator safety in hazardous environments.
+- Enable low-latency wireless robotic control.
+- Create a scalable and affordable robotic solution.
+
+---
+
+# 🚀 Applications
+
 - Bomb Disposal
 - Disaster Response
+- Hazardous Material Handling
 - Industrial Automation
-- Remote Manipulation
 - Human-Robot Interaction
+- Remote Manipulation
 - Robotics Research
+
+---
+
+# 📂 Repository Structure
+
+```text
+Exogenesis/
+│
+├── README.md
+├── LICENSE
+│
+├── Code/
+│
+├── Research/
+│   └── Exogenesis_Research_Paper.pdf
+│
+├── Documentation/
+│   ├── Final_Project_Report.pdf
+│   ├── Project_Presentation.pdf
+│   └── Plagiarism_Report.pdf
+│
+├── Circuit_Diagram/
+│
+├── Images/
+│
+├── Videos/
+│
+└── Hardware/
+```
+
+---
+
+# 📚 Documentation
+
+This repository currently contains:
+
+- 📄 Research Paper
+- 📘 Final Project Report
+- 📊 Project Presentation
+- 💻 Source Code
+- 📑 Plagiarism Report
+
+Additional resources such as circuit diagrams, hardware images, and demonstration videos will be added in future updates.
+
+---
+
+# 📖 Research Paper
+
+**Title**
+
+*Exogenesis: A Biometric-Driven Teleoperation System for Enhanced Safety in Hazardous Environments*
+
+The complete research paper describing the methodology, system architecture, implementation, and evaluation is available in the **Research** folder.
 
 ---
 
 # 👨‍💻 My Contribution
 
-As a member of the project team, I contributed to the research, system design, implementation, testing, documentation, and overall development of the Exogenesis teleoperation system.
+As a member of the project team, I contributed to the research, system design, embedded system implementation, testing, documentation, and overall development of the Exogenesis teleoperation system.
 
-This repository represents the collaborative work completed as part of our academic project.
+This repository represents the collaborative work completed as part of our undergraduate engineering project.
 
 ---
 
-# 👥 Team Members
+# 👥 Project Team
 
 - Sarthak Tisgaonkar
 - **Anurag Trivedi**
 - Kiran Wagh
 - Farhan Shaikh
 
-**Project Guide**
+### Project Guide
 
-Prof. M. S. Shinde
+**Prof. M. S. Shinde**
 
 Department of Artificial Intelligence and Data Science
 
@@ -102,19 +166,21 @@ K. K. Wagh Institute of Engineering Education and Research, Nashik
 
 ---
 
-# 📂 Repository Status
+# 📈 Future Enhancements
 
-This repository is currently being organized.
+- 📷 Hardware Images
+- 🎥 Demonstration Video
+- 🔌 Circuit Diagram
+- 📊 Performance Evaluation
+- 📦 Bill of Materials (BOM)
+- 🏗️ System Architecture Diagram
+- 🚀 Versioned Releases
 
-The following resources will be added progressively:
+---
 
-- Research Paper
-- Project Report
-- Presentation
-- Source Code
-- Circuit Diagrams
-- Hardware Images
-- Demonstration Video
+# 🤝 Acknowledgements
+
+We sincerely thank **Prof. M. S. Shinde** and the Department of Artificial Intelligence and Data Science at **K. K. Wagh Institute of Engineering Education and Research, Nashik**, for their guidance and continuous support throughout the development of this project.
 
 ---
 
@@ -124,4 +190,4 @@ This repository is intended for academic, educational, and research purposes.
 
 ---
 
-⭐ If you found this project interesting, consider giving it a Star.
+⭐ **If you found this project interesting, consider giving the repository a Star!**
